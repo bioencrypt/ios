@@ -39,7 +39,7 @@ TrustFactors operate exclusively on tokenized data, preserving the uniqueness of
  - No personal/private data is stored or processed
  - Analysis and data are 100% local to device and never removed
  
- ## Patented & Cryptographically Secure Transparent Authentication
+ ## Patented & Cryptographically Secure Transparent Authentication (USPTO US9477825B1 & US9992023B2)
 BioEncrypt dynamically generates encryption keys from TrustFactors when the TrustScore exceeds the defined threshold.
  - Combination of high-entropy factors create a cryptographically secure solution
  - Encryption keys are combined with device TrustFactors to “lock-in” secure states
