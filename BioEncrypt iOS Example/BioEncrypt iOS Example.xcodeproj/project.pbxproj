@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D738DBC822A487E8008AA599 /* BioEncrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73A578922A47451005DAD7F /* BioEncrypt.framework */; };
+		D738DBC922A487E8008AA599 /* BioEncrypt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D73A578922A47451005DAD7F /* BioEncrypt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D73A59AA22A47A13005DAD7F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A594B22A47A13005DAD7F /* RootViewController.m */; };
 		D73A59AB22A47A13005DAD7F /* NSDate+TimeElapsed.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A594D22A47A13005DAD7F /* NSDate+TimeElapsed.m */; };
 		D73A59AF22A47A13005DAD7F /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A595522A47A13005DAD7F /* CircularProgressView.m */; };
@@ -51,10 +53,16 @@
 		D73A59D622A47A13005DAD7F /* JTHamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A59A122A47A13005DAD7F /* JTHamburgerButton.m */; };
 		D73A59D722A47A14005DAD7F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A59A422A47A13005DAD7F /* MBProgressHUD.m */; };
 		D73A59D822A47A14005DAD7F /* ILContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A59A822A47A13005DAD7F /* ILContainerView.m */; };
-		D73A59DB22A47A3C005DAD7F /* BioEncrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73A578922A47451005DAD7F /* BioEncrypt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D738DBCA22A487E8008AA599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73A578422A47451005DAD7F /* BioEncrypt.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D73D6F75222C5DB3000F2D5A;
+			remoteInfo = BioEncrypt;
+		};
 		D73A578822A47451005DAD7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D73A578422A47451005DAD7F /* BioEncrypt.xcodeproj */;
@@ -64,7 +72,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D738DBCC22A487E8008AA599 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D738DBC922A487E8008AA599 /* BioEncrypt.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D738DBC522A48771008AA599 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D73A576B22A47436005DAD7F /* BioEncrypt iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BioEncrypt iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73A578422A47451005DAD7F /* BioEncrypt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BioEncrypt.xcodeproj; path = "../BioEncrypt Framework/BioEncrypt.xcodeproj"; sourceTree = "<group>"; };
 		D73A594B22A47A13005DAD7F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
@@ -147,7 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73A59DB22A47A3C005DAD7F /* BioEncrypt.framework in Frameworks */,
+				D738DBC822A487E8008AA599 /* BioEncrypt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +422,7 @@
 		D73A59DA22A47A3C005DAD7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D738DBC522A48771008AA599 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -413,10 +437,12 @@
 				D73A576722A47436005DAD7F /* Sources */,
 				D73A576822A47436005DAD7F /* Frameworks */,
 				D73A576922A47436005DAD7F /* Resources */,
+				D738DBCC22A487E8008AA599 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D738DBCB22A487E8008AA599 /* PBXTargetDependency */,
 			);
 			name = "BioEncrypt iOS Example";
 			productName = "BioEncrypt iOS Example";
@@ -534,6 +560,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D738DBCB22A487E8008AA599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioEncrypt;
+			targetProxy = D738DBCA22A487E8008AA599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D73A599122A47A13005DAD7F /* LaunchScreen.storyboard */ = {
