@@ -44,7 +44,7 @@
 		D73A59CF22A47A13005DAD7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73A599122A47A13005DAD7F /* LaunchScreen.storyboard */; };
 		D73A59D022A47A13005DAD7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599322A47A13005DAD7F /* main.m */; };
 		D73A59D122A47A13005DAD7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599522A47A13005DAD7F /* AppDelegate.m */; };
-		D73A59D222A47A13005DAD7F /* TAFAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73A599722A47A13005DAD7F /* TAFAssets.xcassets */; };
+		D73A59D222A47A13005DAD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73A599722A47A13005DAD7F /* Assets.xcassets */; };
 		D73A59D322A47A13005DAD7F /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599B22A47A13005DAD7F /* UIViewController+RESideMenu.m */; };
 		D73A59D422A47A13005DAD7F /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599D22A47A13005DAD7F /* RESideMenu.m */; };
 		D73A59D522A47A13005DAD7F /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599F22A47A13005DAD7F /* RECommonFunctions.m */; };
@@ -126,7 +126,7 @@
 		D73A599422A47A13005DAD7F /* NSDate+TimeElapsed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeElapsed.h"; sourceTree = "<group>"; };
 		D73A599522A47A13005DAD7F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D73A599622A47A13005DAD7F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		D73A599722A47A13005DAD7F /* TAFAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TAFAssets.xcassets; sourceTree = "<group>"; };
+		D73A599722A47A13005DAD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D73A599A22A47A13005DAD7F /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
 		D73A599B22A47A13005DAD7F /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		D73A599C22A47A13005DAD7F /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
@@ -154,6 +154,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D738DBBE22A48217008AA599 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D73A599322A47A13005DAD7F /* main.m */,
+				D73A599122A47A13005DAD7F /* LaunchScreen.storyboard */,
+				D73A59A922A47A13005DAD7F /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		D73A576222A47436005DAD7F = {
 			isa = PBXGroup;
 			children = (
@@ -183,19 +193,17 @@
 		D73A594A22A47A13005DAD7F /* BioEncrypt iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D73A594B22A47A13005DAD7F /* RootViewController.m */,
 				D73A594C22A47A13005DAD7F /* AppDelegate.h */,
-				D73A594D22A47A13005DAD7F /* NSDate+TimeElapsed.m */,
-				D73A594E22A47A13005DAD7F /* View Controllers */,
-				D73A599122A47A13005DAD7F /* LaunchScreen.storyboard */,
-				D73A599322A47A13005DAD7F /* main.m */,
-				D73A599422A47A13005DAD7F /* NSDate+TimeElapsed.h */,
 				D73A599522A47A13005DAD7F /* AppDelegate.m */,
 				D73A599622A47A13005DAD7F /* RootViewController.h */,
-				D73A599722A47A13005DAD7F /* TAFAssets.xcassets */,
+				D73A594B22A47A13005DAD7F /* RootViewController.m */,
+				D73A594E22A47A13005DAD7F /* View Controllers */,
+				D73A599422A47A13005DAD7F /* NSDate+TimeElapsed.h */,
+				D73A594D22A47A13005DAD7F /* NSDate+TimeElapsed.m */,
+				D73A599722A47A13005DAD7F /* Assets.xcassets */,
 				D73A599822A47A13005DAD7F /* THIRD PARTY LIBS */,
 				D73A59A622A47A13005DAD7F /* Views */,
-				D73A59A922A47A13005DAD7F /* Info.plist */,
+				D738DBBE22A48217008AA599 /* Supporting files */,
 			);
 			path = "BioEncrypt iOS";
 			sourceTree = "<group>";
@@ -203,16 +211,16 @@
 		D73A594E22A47A13005DAD7F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D73A597422A47A13005DAD7F /* BaseViewController.h */,
+				D73A596122A47A13005DAD7F /* BaseViewController.m */,
+				D73A597322A47A13005DAD7F /* BaseNavigationController.h */,
+				D73A596222A47A13005DAD7F /* BaseNavigationController.m */,
 				D73A595422A47A13005DAD7F /* UI Elements */,
 				D73A595722A47A13005DAD7F /* DebugViewControllers */,
-				D73A596122A47A13005DAD7F /* BaseViewController.m */,
-				D73A596222A47A13005DAD7F /* BaseNavigationController.m */,
 				D73A596322A47A13005DAD7F /* Details */,
 				D73A596722A47A13005DAD7F /* UnlockViewController */,
 				D73A596B22A47A13005DAD7F /* DashboardViewController */,
 				D73A596F22A47A13005DAD7F /* Menu */,
-				D73A597322A47A13005DAD7F /* BaseNavigationController.h */,
-				D73A597422A47A13005DAD7F /* BaseViewController.h */,
 				D73A597522A47A13005DAD7F /* FirstTimeViewControllers */,
 				D73A598322A47A13005DAD7F /* Permissions View Controllers */,
 				D73A598A22A47A13005DAD7F /* User Device Info */,
@@ -223,8 +231,8 @@
 		D73A595422A47A13005DAD7F /* UI Elements */ = {
 			isa = PBXGroup;
 			children = (
-				D73A595522A47A13005DAD7F /* CircularProgressView.m */,
 				D73A595622A47A13005DAD7F /* CircularProgressView.h */,
+				D73A595522A47A13005DAD7F /* CircularProgressView.m */,
 			);
 			path = "UI Elements";
 			sourceTree = "<group>";
@@ -232,15 +240,15 @@
 		D73A595722A47A13005DAD7F /* DebugViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D73A595822A47A13005DAD7F /* SystemDebugViewController.m */,
-				D73A595922A47A13005DAD7F /* TransparentDebugViewController.h */,
 				D73A595A22A47A13005DAD7F /* ComputationInfoViewController.h */,
-				D73A595B22A47A13005DAD7F /* UserDebugViewController.h */,
-				D73A595C22A47A13005DAD7F /* TransparentDebugViewController.m */,
-				D73A595D22A47A13005DAD7F /* SystemDebugViewController.h */,
 				D73A595E22A47A13005DAD7F /* ComputationInfoViewController.m */,
-				D73A595F22A47A13005DAD7F /* Debug.storyboard */,
+				D73A595D22A47A13005DAD7F /* SystemDebugViewController.h */,
+				D73A595822A47A13005DAD7F /* SystemDebugViewController.m */,
+				D73A595B22A47A13005DAD7F /* UserDebugViewController.h */,
 				D73A596022A47A13005DAD7F /* UserDebugViewController.m */,
+				D73A595922A47A13005DAD7F /* TransparentDebugViewController.h */,
+				D73A595C22A47A13005DAD7F /* TransparentDebugViewController.m */,
+				D73A595F22A47A13005DAD7F /* Debug.storyboard */,
 			);
 			path = DebugViewControllers;
 			sourceTree = "<group>";
@@ -248,9 +256,9 @@
 		D73A596322A47A13005DAD7F /* Details */ = {
 			isa = PBXGroup;
 			children = (
-				D73A596422A47A13005DAD7F /* DetailInfoViewController.xib */,
-				D73A596522A47A13005DAD7F /* DetailInfoViewController.m */,
 				D73A596622A47A13005DAD7F /* DetailInfoViewController.h */,
+				D73A596522A47A13005DAD7F /* DetailInfoViewController.m */,
+				D73A596422A47A13005DAD7F /* DetailInfoViewController.xib */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -258,8 +266,8 @@
 		D73A596722A47A13005DAD7F /* UnlockViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D73A596822A47A13005DAD7F /* UnlockViewController.m */,
 				D73A596922A47A13005DAD7F /* UnlockViewController.h */,
+				D73A596822A47A13005DAD7F /* UnlockViewController.m */,
 				D73A596A22A47A13005DAD7F /* UnlockViewController.xib */,
 			);
 			path = UnlockViewController;
@@ -268,9 +276,9 @@
 		D73A596B22A47A13005DAD7F /* DashboardViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D73A596E22A47A13005DAD7F /* DashboardViewController.h */,
 				D73A596C22A47A13005DAD7F /* DashboardViewController.m */,
 				D73A596D22A47A13005DAD7F /* DashboardViewController.xib */,
-				D73A596E22A47A13005DAD7F /* DashboardViewController.h */,
 			);
 			path = DashboardViewController;
 			sourceTree = "<group>";
@@ -278,9 +286,9 @@
 		D73A596F22A47A13005DAD7F /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				D73A597222A47A13005DAD7F /* DebugMenuViewController.h */,
 				D73A597022A47A13005DAD7F /* DebugMenuViewController.m */,
 				D73A597122A47A13005DAD7F /* DebugMenuViewController.xib */,
-				D73A597222A47A13005DAD7F /* DebugMenuViewController.h */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -288,10 +296,10 @@
 		D73A597522A47A13005DAD7F /* FirstTimeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D73A597622A47A13005DAD7F /* child viewControllers */,
-				D73A598022A47A13005DAD7F /* FirstTimeViewController.xib */,
-				D73A598122A47A13005DAD7F /* FirstTimeViewController.m */,
 				D73A598222A47A13005DAD7F /* FirstTimeViewController.h */,
+				D73A598122A47A13005DAD7F /* FirstTimeViewController.m */,
+				D73A598022A47A13005DAD7F /* FirstTimeViewController.xib */,
+				D73A597622A47A13005DAD7F /* child viewControllers */,
 			);
 			path = FirstTimeViewControllers;
 			sourceTree = "<group>";
@@ -316,11 +324,11 @@
 			isa = PBXGroup;
 			children = (
 				D73A598422A47A13005DAD7F /* LocationPermissionViewController.h */,
+				D73A598822A47A13005DAD7F /* LocationPermissionViewController.m */,
 				D73A598522A47A13005DAD7F /* LocationPermissionViewController.xib */,
 				D73A598622A47A13005DAD7F /* ActivityPermissionViewController.h */,
-				D73A598722A47A13005DAD7F /* ActivityPermissionViewController.xib */,
-				D73A598822A47A13005DAD7F /* LocationPermissionViewController.m */,
 				D73A598922A47A13005DAD7F /* ActivityPermissionViewController.m */,
+				D73A598722A47A13005DAD7F /* ActivityPermissionViewController.xib */,
 			);
 			path = "Permissions View Controllers";
 			sourceTree = "<group>";
@@ -328,12 +336,12 @@
 		D73A598A22A47A13005DAD7F /* User Device Info */ = {
 			isa = PBXGroup;
 			children = (
-				D73A598B22A47A13005DAD7F /* UserDeviceInformationViewController.xib */,
-				D73A598C22A47A13005DAD7F /* UserDeviceTableViewCell.xib */,
-				D73A598D22A47A13005DAD7F /* UserDeviceTableViewCell.m */,
-				D73A598E22A47A13005DAD7F /* UserDeviceInformationViewController.h */,
 				D73A598F22A47A13005DAD7F /* UserDeviceTableViewCell.h */,
+				D73A598D22A47A13005DAD7F /* UserDeviceTableViewCell.m */,
+				D73A598C22A47A13005DAD7F /* UserDeviceTableViewCell.xib */,
+				D73A598E22A47A13005DAD7F /* UserDeviceInformationViewController.h */,
 				D73A599022A47A13005DAD7F /* UserDeviceInformationViewController.m */,
+				D73A598B22A47A13005DAD7F /* UserDeviceInformationViewController.xib */,
 			);
 			path = "User Device Info";
 			sourceTree = "<group>";
@@ -472,7 +480,7 @@
 				D73A59BA22A47A13005DAD7F /* UnlockViewController.xib in Resources */,
 				D73A59C722A47A13005DAD7F /* LocationPermissionViewController.xib in Resources */,
 				D73A59C122A47A13005DAD7F /* BiometricPermissionViewController.xib in Resources */,
-				D73A59D222A47A13005DAD7F /* TAFAssets.xcassets in Resources */,
+				D73A59D222A47A13005DAD7F /* Assets.xcassets in Resources */,
 				D73A59C422A47A13005DAD7F /* WelcomeViewController.xib in Resources */,
 				D73A59C522A47A13005DAD7F /* FirstTimeViewController.xib in Resources */,
 				D73A59C222A47A13005DAD7F /* PasswordCreationViewController.xib in Resources */,
@@ -655,7 +663,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/BioEncrypt iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BioEncrypt iOS/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -670,7 +678,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/BioEncrypt iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BioEncrypt iOS/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
