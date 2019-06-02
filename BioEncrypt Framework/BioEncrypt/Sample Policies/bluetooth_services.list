@@ -1,0 +1,35 @@
+1811 -- Alert Notification Service
+1815 -- Automation IO
+180F -- Battery Service
+1810 -- Blood Pressure
+181B -- Body Composition
+181E -- Bond Management
+181F -- Continuous Glucose Monitoring
+1805 -- Current Time Service
+1818 -- Cycling Power
+1816 -- Cycling Speed and Cadence
+180A -- Device Information
+181A -- Environmental Sensing
+1800 -- Generic Access
+1801 -- Generic Attribute
+1808 -- Glucose
+1809 -- Health Thermometer
+180D -- Heart Rate
+1823 -- HTTP Proxy
+1812 -- Human Interface Device
+1802 -- Immediate Alert
+1821 -- Indoor Positioning
+1820 -- Internet Protocol Support
+1803 -- Link Loss
+1819 -- Location and Navigation
+1807 -- Next DST Change Service
+1825 -- Object Transfer
+180E -- Phone Alert Status Service
+1822 -- Pulse Oximeter
+1806 -- Reference Time Update Service
+1814 -- Running Speed and Cadence
+1813 -- Scan Parameters
+1824 -- Transport Discovery
+1804 -- Tx Power
+181C -- User Data
+181D -- Weight Scale

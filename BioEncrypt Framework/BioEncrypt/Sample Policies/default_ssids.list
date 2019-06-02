@@ -1,0 +1,518 @@
+^dd-wrt$
+^2WIRE[0-9]{3}$
+^3Com$
+^3G Router$
+^3GRouter$
+^802.11b-SSID$
+^802.11g-AP$
+^802.11SSID$
+^A[0-9A-F]{5}GROUP$
+^Actiontec$
+^ACTIONTEC$
+^ACTIONTEC_11A$
+^Actiontec-[A-F0-9]{4}$
+^Adaptec$
+^ADD-GWAR3550$
+^adsl-[A-Fa-f0-9]{6}$
+^[A-F0-9]{12}_G$
+^AH-[a-f0-9]{6}_ac$
+^AIP-W411$
+^airlink101$
+^Airlink101$
+^airlive$
+^airlive2$
+^airlive5g$
+^Airport$
+^Airspot$
+^AIRWIRE[A-F0-9]{12}$
+^ALICE-WLAN[0-9]{2}$
+^allied$
+^Almond-[0-9]{4}_nomap$
+^Altai Wireless Network$
+^Amped_5.0GHz$
+^Amped_AP$
+^Amped_AP_5.0GHz$
+^Amped_APA20_5.0$
+^Amped_Network$
+^Amped_Pro_AP$
+^Amped_R10000G$
+^Amped_REC10$
+^Amped_REC15A_5.0$
+^Amped_Rep_5.0GHz$
+^Amped_RTA15_5$
+^Amped_SR$
+^Amped_Wireless$
+^AMX$
+^Anker N600 5G$
+^ANY$
+^ap101b$
+^AP11B$
+^ap11g$
+^ap16b$
+^AP2500-A1$
+^AP54G$
+^AP[a-f0-9]{6}$
+^APC$
+^Aperion AP2$
+^Apple Network [a-f0-9]{6}$
+^arcweb$,
+^Aria [A-F0-9]{6}$
+^ARRIS-[0-9A-F]{4}$
+^ARV7519[A-F0-9]{6}$
+^Asoka$
+ASUS
+^aterm-[a-f0-9]{6}-a$
+^aterm-[A-Fa-f0-9]{6}-a$
+^Atheros Wireless Network$
+^Ativa54g$
+^at&t$
+^ATT[0-9]{3}$
+^ATT[0-9]{4}$
+^AxessMV400$
+^[A-Z0-9]{5}$
+^Aztech5005_[A-F0-9]{4}$
+^Aztech5008 [A-F0-9]{4}$
+^Aztech556_[A-F0-9]{4}$
+^Aztech559_[A-Fa-f0-9]{4}$
+^Aztech580(5G)_[A-F0-9]{4}$
+^Bandspeed$
+Beeline SmartBox Pro
+^belkin
+^Belkin
+^BenQ$
+^Blaster$
+^B-LINK_[A-F0-9]{6}$
+^Blitzz$
+^bluetake$
+^brcw108g$
+^BreezeNET$
+^BRN150-1$
+^Broadband_Router$
+^Broadcom$
+^BROWAN$
+^BTHomeHub2-[A-Z0-9]{4}$
+^BTHub3-[0-9A-F]{4}$
+^BTHub3-[A-F0-9]{4}$
+^BTHub4-[A-F0-9]{4}$
+^BTHub5-[A-Z0-9]{4}$
+^BTVOYAGER-[A-F0-9]{2}$
+^BTWifiExndr-[A-F0-9]{3}$
+^Buffalo-
+^BUFFALO-
+^BWA711$
+^bwifi - 0$
+^C300BRS4$
+^ccb255[a-f0-9]{6}$
+^CenturyLink[0-9]{4}$
+^ChinaNet-[a-fA-F]{4}$
+^ChinaNet-[a-zA-Z]{4}$
+^Chromecast[0-9]{4}$
+^cisco-[0-9]{4}$
+^Cisco_[A-F0-9]{8}$
+^Cisco[A-Z0-9]{5}$
+^Cisco_Extender_[0-9]{6}$
+^ciscosb$
+^ciscosb1$
+^cisco-voice$
+^ClearSPOT_[a-f0-9]{4}$
+^CloudFTP$
+^Colubris Networks$
+^COMPAQ$
+^Comtrend_[A-F0-9]{4}$
+^conexant$
+^CONNECT2AIR$
+^ConnectionPoint$
+Contec FX-DS540-APDL U
+^corega$
+^Corinex$
+^CQR-980_[a-f0-9]{6}$
+^CQR-981_[a-f0-9]{6}$
+^Crestron-[A-F0-9]{6}$
+^C Spire 4G LTE Hotspot [A-F0-9]{4}$
+^CTR35-[a-f0-9]{3}$
+^CTR500-[a-f0-9]{3}$
+^CTR-[a-f0-9]{3}$
+^Customer ID$
+^Cyfre 3G Router$
+^D100$
+DANE-ELEC Media Streamer
+^default$
+^Default$
+^Default_11G$
+^Default_11N$
+^Default SSID$
+^DefaultSsid1-1$
+^deskpoint$
+^DIR-300NRUB7$
+^dlink
+^D-Link
+^DLINK
+^DMM_WR300N$
+^DOVADO$
+Dovado 3GN
+^DOVADO-[A-F0-9]{5}$
+Dovado PRO
+Dovado UMR
+^DrayTek
+^DrayTek$
+^DSP-W110-[A-F0-9]{4}$
+^DT-200N$
+^DVG-G5402SP$
+^DVW323B[A-Fa-f0-9]{2}-5G$
+^Dynex$
+^EasyAcc_{6}$
+^EasyBox-[A-F0-9]{6}$
+^ECG9210-04_AP-0$
+^EDGE[0-9]{3}$
+^edimax$
+^Edimax$
+Edimax BR-6226n
+^EdimaxCV.setup$
+^edimax.setup$
+^eHome$
+^Elevate-[A-F0-9]{4}$
+Eltel ET-5300
+^ENCORE[A-F0-9]{6}$
+^ENDSL-4R5G$
+^Engenius$
+^EnGenius[A-F0-9]{6}$
+^EnGenius[A-F0-9]{6}-5G$
+^EnGenius[A-F0-9a-f]{6}$
+^ENHWI-N2$
+^FAST_[A-F0-9]{6}$
+^firetide$
+^fortinet.mesh.root$
+^FR-300RTR$
+^FreedomPop_[a-f0-9]{4}$
+^FRITZ!Box Fon WLAN 7170$
+^FRITZ!Box Fon WLAN 7360 SL$
+^FRITZ!Box Fon WLAN 7390$
+^FRITZ!Box Fon WLAN 7570 vDSL$
+^FRITZ!Box WLAN 3370$
+^frontier[A-F0-9]{4}$
+^FVS318N_1$
+^Game[0-9]{5}$
+^Gateway$
+^Gateway 7001 AP Guest Network$
+^getnet$
+^GIGABYTE$
+GL.iNet 6416A
+^GlobeSurfer$
+^GP03-[A-F0-9]{12}$
+^HAME_A1_[a-f0-9]{4}$
+^HAME S3_[A-F0-3]{4}$
+^hawking$
+^Hawking_HD45R_5GHz$
+Hawking WA210
+^Hercules$
+^HG520s$
+^HITRON-[A-F0-9]{4}$
+^HiWiFi_[A-F0-9]{6}$
+^@Home[0-9A-F]{4}$
+^@Home[A-F0-9]{4}$
+^HOME-[A-F0-9]{4}$
+^HOME-[A-F0-9]{4}-5$
+^@Home[A-Fa-f0-9]{4}$
+HooToo TripMate Elite
+HooToo TripMate Nano
+^HSG200-2$
+^HSPA_ROUTER$
+^HUAWEI-[A-F0-9]{6}$
+Huawei HG256s   HG256s-[A-F0-9]{6
+^iboss-[a-f0-9]{6}$
+^IBR600-[a-f0-9]{3}$
+^IEEE802.11$
+^IEEE 802.11 LAN$
+^iHub_[a-f0-9]{12}$
+^In Room WiFi$
+^intel-[A-F0-9]{4}$
+^Intel Gateway$
+^INTELLINET$
+Intellinet 524490 Wireless 300N 4-Port Router
+^iptime$
+^iptime5G$
+^JCG-[A-F0-9]{6}$
+^Junxion_Box$
+^KEEBOX W150NR$
+^KeyenceWLAN$
+^KR1$
+^KY669A-[0-9A-F]{9}$
+^Kyocera KR2-[a-f0-9]{3}$
+La Fonera 2.0g FON2202
+La Fonera+ FON2201
+^Legrand_[A-F0-9]{6}$
+^LenovoPR700-[a-fA-F0-9]{4}$
+^LevelOne$
+^LG-Ericsson[A-F0-9]{6}$
+^LGNortel$
+^linksys
+^Linksys
+^LocalGroup$
+^LPV4-U2-[A-Fa-f0-9]{6}$
+^LTE_ROUTER$
+^LuxulXen1750_5X$
+^Luxul-XVW-P30$
+Macromate MAP-811E
+^MagicLAN$
+^Marvell-AP32$
+^MarvellAP8x$
+^MBR1200B-[a-f0-9]{3}$
+^MBR1400-[a-f0-9]{3}$
+^MBR95-[a-f0-9]{3}$
+^MBR-[a-f0-9]{3}$
+^medialink$
+^Medialink_[A-F0-9]{6}$
+Medion Life P89190 (MD87050)
+^meraki$
+^Metalink$
+^Microsoft_Office365$
+^MIFI$
+^MiFi3723 [0-9]{4}$
+^MikroTik$
+^MIMO$
+^Mini WiFi AP-[0-9]{3}$
+^mobilerouter$
+Modou M101
+^MoFi_[A-F0-9]{6}$
+^Motorola$
+^MOTOROLA-[0-9]{5}$
+^motorola [A-F0-9]{3}$
+^MOTOROLA-[A-F0-9]{5}$
+^MSHOME$
+^MSI$
+^MyACBridge$
+^MyNetAC1300_5G$
+^My Network$
+^MyPlace$
+^myqwest[0-9]{4}$
+^myqwest[a-fA-F0-9]{4}$
+^mySSID$
+^My Wireless Network A$
+^My Wireless Network [AB]{1}$
+^MyWLAN$
+^NetCamHD[A-F0-9]{4}$
+^netgear
+^NETGEAR
+^netis$
+^netis_5G$
+^netis_5G_[A-F0-9]{6}$
+^NetweeN$
+^NexStar-WiFi$
+^NexWare$
+^NEXX_[a-f0-9]{6}$
+^Nexxt$
+^Nexxt_[A-F0-9]{6}$
+^N.MINI$
+^No Geek Needed[0-9A-F]{6}$
+^Nokia WLAN$
+^NUMERICABLE-[A-F0-9]{4}$
+^Office54g$
+^OnNetworks[0-9]{2}$
+^open-mesh$
+^Overdrive-[A-F0-9]{3}$
+^OverdrivePro[A-F0-9]{3}$
+^ovislink$
+OvisLink AirLive WL-5470POE
+^PACE[0-9A-F]{3}$
+^pakedge$
+Parrot AR.Drone
+^Phicomm_[A-F0-9]{4}$
+^Philips Fidelio AirPlay$
+^PHS2000W-[a-f0-9]{3}$
+^PHS-[a-f0-9]{3}$
+^Pineapple$
+^PL9520-WAP$
+^planexuser$
+^Plug2-uAP-[a-f0-9]{4}$
+^PLUGO$
+^Powerline$
+^PRISM_[a-f0-9]{2}_[a-f0-9]{2}_[a-f0-9]{2}$
+^PROLiNK_WNR1008$
+^proxim$
+^qwest[0-9]{4}$
+^RadioLabs$
+^RangeLAN$
+^RG11B$
+^RG54G$
+^RG54G2$
+^RG54GS$
+^RG54SE II$
+^RG60SE$
+^RoamAbout Default Network Name 0$
+^Rosewill[A-F0-9]{6}$
+^Rosewill_
+^Rosewill-N400LX$
+^Rover3_0022C0[A-F0-9]{6}$
+^RT2561_6$
+^RT2860AP$
+^RTA1025W-[0-9A-F]{6}$
+^RTA1030W-[A-F0-9]{6}$
+^RTK 11n AP 5G$
+^RTL8181-AP$
+^SAPIDO_All_Broadband_Router$
+^SAPIDO_Mobile_Hotspot_[a-f0-9]{6}$
+^Seagate Wireless Plus$
+^SETUP-[A-F0-9]{2}$
+Siemens Gigaset SX763
+^SIP_ATA$
+^Sitecom$
+^Sitecom[A-F0-9]{6}$
+^SmartHub-AWRT300N$
+^SmartHub-AWRT550N$
+^SmartHub-AWRT600N$
+^Smart_Repeater_Pro$
+^SMC$
+^SMC8014WG-TWC[A-F0-9]{2}$
+^SMCAP$
+SMC SMCWBR11-G
+^SMCWBR11S-3GN_AP$
+^SMCWBR14S-N4_AP$
+^SMT-R2000-WLAN1$
+^SONIC-[a-f0-9]{4}$
+^sonicwall$
+SoundMate WM201
+^SpeedStream$
+^SpeedTouch[A-F0-9]{6}$
+^SprintGateway-[A-Fa-f0-9]{3}$
+^Sprint MiFi2200 [A-F0-9]{3}$
+^SPRINTPHS-[a-f0-9]{3}$
+^Sputnik_AP160$
+^SquareOne$
+^SSID 2$
+^stiwifi$
+^Strix Wireless Network$
+^Strix Wireless Network - 0$
+^Superwifi Network [0-7]{1}$
+^Sweex LW310V2$
+^SWR1100_media$
+Synology RT1900AC
+TCL T1 (SL-WR802J)
+^TELUS[0-9]{4}$
+^telus[A-F0-9]{3}$
+^Tenda$
+^Tenda_[0-9A-F]{4}$
+^Tenda [A-F0-9]{6}$
+^Tenda_[A-F0-9]{6}$
+^Tenda_[A-Fa-f0-9]{6}$
+^TEW672GR$
+^TG1672G[A-F0-9]{2}(-5G)?$
+^TG862G[A-F0-9]{2}$
+^THOMSON$
+^TI-AR7WRD$
+^Topglobal-[0-9]{5}$
+^topglobal[0-9]{6}$
+^TOTOLINK N150RT$
+^TP-LINK_
+Transcend StoreJet Cloud
+^Travel[A-F0-9]{4}$
+^TRENDnet
+^tsunami$
+^TWL-A11$
+^U10C022[A-F0-9]{2}$
+Ubiquiti Networks NanoStation Loco M2
+^UBNT$
+^UNIDEN$
+^Untitled$
+^USR2249$
+^USR5450$
+^USR5451$
+^USR5453 Internal Network$
+^USR5461$
+^USR5462$
+^USR5463$
+^USR5464_SES_[0-9]{5}$
+^USR5465$
+^USR8022$
+^USR8054$
+^USR9106$
+^USR9108$
+^USR9113_SES_[0-9]{6}$
+^V54-HOME001$
+^V54-HOME00[1-2]{2}$
+^Verizon-291LVW-[A-F0-9]{4}$
+^Verizon AC30 [A-F0-9](4)$
+^Verizon MiFi
+^Verizon SCH-LC11 [a-f0-9]{4} Secure$
+^VK-100RTg$
+^vocore$
+^VodafoneMobileWiFi-[A-F0-9]{6}$
+^VoyagerAir$
+^VZHR[0-9]{6}$
+^WAP-6010$
+^WARPSTAR-[A-F0-9]{6}-A$
+^WARPSTAR-[A-F0-9]{6}-W$
+^WARPSTAR-[A-Fa-f0-9]{6}$$
+^Wavespot-Free-Internet$
+^Wavit11$
+^WBR-3408$
+^WBR-3800$
+^WBR-6000$
+^WBR-6001$
+^WBR-6002$
+^WBR-6003$
+^WBR-6010$
+^WBR-6020$
+^WBR-6600$
+^WBR-6800$
+^WebSTAR$
+^WeMo.[A-F0-9]{3}$
+^WeMo_Baby.[A-F0-9]{3}$
+^WeMo.Insight.[A-F0-9]{3}$
+^WeMo.Light.[A-F0-9]{3}$
+^WEST[0-9]{4}$
+^WesternDigital$
+^Western Digital
+^wevo$
+^WGV614A3$
+^WiFiRSU_[0-9a-f]{2}$
+^WIN_[A-F0-9]{4}$
+^wireless$
+^Wireless$
+^WIRELESS$
+^Wireless_11n_Router$
+^Wireless-11n-Router$
+^Wireless(5G)$
+^wireless-a$
+^Wireless_[A-F0-9]{6}$
+^Wireless-AP$
+^Wireless-G$
+^Wireless_N$
+^Wireless-N$
+^wirelessnc$
+^Wireless Network 1$
+^Wireless_N_Router$
+^Wireless-N Router$
+^WL-330NUL-Private-[a-f0-9]$
+^wlan$
+^WLAN$
+^WLAN_[0-9A-Fa-f]{6}$
+^WLAN-11b-GW$
+^WLAN1-[A-F0-9]{6}$
+^wlan-ap$
+^WLAN-AP$
+^wlan-ap-5g$
+^wlan-g$
+^WLAN-PS$
+^WLCM$
+^WL-HDD$
+^WNIR3300_[a-f0-9]{6}$
+^WNR2004$
+^WPG54G-linksys$
+^WRC_Network$
+^WRT600N-D6$
+^WSR-5000$
+^www.ubnt.com$
+^X-Micro$
+^ycam$
+^yournetworkname$
+^zio$
+^ZIO$
+^zoom$
+^Zoom$
+^ZOOM$
+^zoom[0-9]{4}$
+^Zoom[0-9a-f]{4}$
+^Zoom 802.11 LAN$
+^ZoomWe3G_[A-Fa-f0-9]{3}$
+^ZTE Wireless Network$
+^ZyXEL

@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73A59AA22A47A13005DAD7F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A594B22A47A13005DAD7F /* RootViewController.m */; };
+		D73A59AB22A47A13005DAD7F /* NSDate+TimeElapsed.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A594D22A47A13005DAD7F /* NSDate+TimeElapsed.m */; };
+		D73A59AF22A47A13005DAD7F /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A595522A47A13005DAD7F /* CircularProgressView.m */; };
+		D73A59B022A47A13005DAD7F /* SystemDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A595822A47A13005DAD7F /* SystemDebugViewController.m */; };
+		D73A59B122A47A13005DAD7F /* TransparentDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A595C22A47A13005DAD7F /* TransparentDebugViewController.m */; };
+		D73A59B222A47A13005DAD7F /* ComputationInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A595E22A47A13005DAD7F /* ComputationInfoViewController.m */; };
+		D73A59B322A47A13005DAD7F /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73A595F22A47A13005DAD7F /* Debug.storyboard */; };
+		D73A59B422A47A13005DAD7F /* UserDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A596022A47A13005DAD7F /* UserDebugViewController.m */; };
+		D73A59B522A47A13005DAD7F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A596122A47A13005DAD7F /* BaseViewController.m */; };
+		D73A59B622A47A13005DAD7F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A596222A47A13005DAD7F /* BaseNavigationController.m */; };
+		D73A59B722A47A13005DAD7F /* DetailInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A596422A47A13005DAD7F /* DetailInfoViewController.xib */; };
+		D73A59B822A47A13005DAD7F /* DetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A596522A47A13005DAD7F /* DetailInfoViewController.m */; };
+		D73A59B922A47A13005DAD7F /* UnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A596822A47A13005DAD7F /* UnlockViewController.m */; };
+		D73A59BA22A47A13005DAD7F /* UnlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A596A22A47A13005DAD7F /* UnlockViewController.xib */; };
+		D73A59BB22A47A13005DAD7F /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A596C22A47A13005DAD7F /* DashboardViewController.m */; };
+		D73A59BC22A47A13005DAD7F /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A596D22A47A13005DAD7F /* DashboardViewController.xib */; };
+		D73A59BD22A47A13005DAD7F /* DebugMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A597022A47A13005DAD7F /* DebugMenuViewController.m */; };
+		D73A59BE22A47A13005DAD7F /* DebugMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A597122A47A13005DAD7F /* DebugMenuViewController.xib */; };
+		D73A59BF22A47A13005DAD7F /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A597A22A47A13005DAD7F /* WelcomeViewController.m */; };
+		D73A59C022A47A13005DAD7F /* PasswordCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A597B22A47A13005DAD7F /* PasswordCreationViewController.m */; };
+		D73A59C122A47A13005DAD7F /* BiometricPermissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A597C22A47A13005DAD7F /* BiometricPermissionViewController.xib */; };
+		D73A59C222A47A13005DAD7F /* PasswordCreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A597D22A47A13005DAD7F /* PasswordCreationViewController.xib */; };
+		D73A59C322A47A13005DAD7F /* BiometricPermissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A597E22A47A13005DAD7F /* BiometricPermissionViewController.m */; };
+		D73A59C422A47A13005DAD7F /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A597F22A47A13005DAD7F /* WelcomeViewController.xib */; };
+		D73A59C522A47A13005DAD7F /* FirstTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A598022A47A13005DAD7F /* FirstTimeViewController.xib */; };
+		D73A59C622A47A13005DAD7F /* FirstTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A598122A47A13005DAD7F /* FirstTimeViewController.m */; };
+		D73A59C722A47A13005DAD7F /* LocationPermissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A598522A47A13005DAD7F /* LocationPermissionViewController.xib */; };
+		D73A59C822A47A13005DAD7F /* ActivityPermissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A598722A47A13005DAD7F /* ActivityPermissionViewController.xib */; };
+		D73A59C922A47A13005DAD7F /* LocationPermissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A598822A47A13005DAD7F /* LocationPermissionViewController.m */; };
+		D73A59CA22A47A13005DAD7F /* ActivityPermissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A598922A47A13005DAD7F /* ActivityPermissionViewController.m */; };
+		D73A59CB22A47A13005DAD7F /* UserDeviceInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A598B22A47A13005DAD7F /* UserDeviceInformationViewController.xib */; };
+		D73A59CC22A47A13005DAD7F /* UserDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73A598C22A47A13005DAD7F /* UserDeviceTableViewCell.xib */; };
+		D73A59CD22A47A13005DAD7F /* UserDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A598D22A47A13005DAD7F /* UserDeviceTableViewCell.m */; };
+		D73A59CE22A47A13005DAD7F /* UserDeviceInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599022A47A13005DAD7F /* UserDeviceInformationViewController.m */; };
+		D73A59CF22A47A13005DAD7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73A599122A47A13005DAD7F /* LaunchScreen.storyboard */; };
+		D73A59D022A47A13005DAD7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599322A47A13005DAD7F /* main.m */; };
+		D73A59D122A47A13005DAD7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599522A47A13005DAD7F /* AppDelegate.m */; };
+		D73A59D222A47A13005DAD7F /* TAFAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73A599722A47A13005DAD7F /* TAFAssets.xcassets */; };
+		D73A59D322A47A13005DAD7F /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599B22A47A13005DAD7F /* UIViewController+RESideMenu.m */; };
+		D73A59D422A47A13005DAD7F /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599D22A47A13005DAD7F /* RESideMenu.m */; };
+		D73A59D522A47A13005DAD7F /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A599F22A47A13005DAD7F /* RECommonFunctions.m */; };
+		D73A59D622A47A13005DAD7F /* JTHamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A59A122A47A13005DAD7F /* JTHamburgerButton.m */; };
+		D73A59D722A47A14005DAD7F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A59A422A47A13005DAD7F /* MBProgressHUD.m */; };
+		D73A59D822A47A14005DAD7F /* ILContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A59A822A47A13005DAD7F /* ILContainerView.m */; };
+		D73A59DB22A47A3C005DAD7F /* BioEncrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73A578922A47451005DAD7F /* BioEncrypt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D73A578822A47451005DAD7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73A578422A47451005DAD7F /* BioEncrypt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D73D6F76222C5DB3000F2D5A;
+			remoteInfo = BioEncrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D73A576B22A47436005DAD7F /* BioEncrypt iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BioEncrypt iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73A578422A47451005DAD7F /* BioEncrypt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BioEncrypt.xcodeproj; path = "../BioEncrypt Framework/BioEncrypt.xcodeproj"; sourceTree = "<group>"; };
+		D73A594B22A47A13005DAD7F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D73A594C22A47A13005DAD7F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D73A594D22A47A13005DAD7F /* NSDate+TimeElapsed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeElapsed.m"; sourceTree = "<group>"; };
+		D73A595522A47A13005DAD7F /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
+		D73A595622A47A13005DAD7F /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		D73A595822A47A13005DAD7F /* SystemDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemDebugViewController.m; sourceTree = "<group>"; };
+		D73A595922A47A13005DAD7F /* TransparentDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentDebugViewController.h; sourceTree = "<group>"; };
+		D73A595A22A47A13005DAD7F /* ComputationInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputationInfoViewController.h; sourceTree = "<group>"; };
+		D73A595B22A47A13005DAD7F /* UserDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDebugViewController.h; sourceTree = "<group>"; };
+		D73A595C22A47A13005DAD7F /* TransparentDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentDebugViewController.m; sourceTree = "<group>"; };
+		D73A595D22A47A13005DAD7F /* SystemDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemDebugViewController.h; sourceTree = "<group>"; };
+		D73A595E22A47A13005DAD7F /* ComputationInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputationInfoViewController.m; sourceTree = "<group>"; };
+		D73A595F22A47A13005DAD7F /* Debug.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
+		D73A596022A47A13005DAD7F /* UserDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDebugViewController.m; sourceTree = "<group>"; };
+		D73A596122A47A13005DAD7F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D73A596222A47A13005DAD7F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		D73A596422A47A13005DAD7F /* DetailInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailInfoViewController.xib; sourceTree = "<group>"; };
+		D73A596522A47A13005DAD7F /* DetailInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInfoViewController.m; sourceTree = "<group>"; };
+		D73A596622A47A13005DAD7F /* DetailInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInfoViewController.h; sourceTree = "<group>"; };
+		D73A596822A47A13005DAD7F /* UnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockViewController.m; sourceTree = "<group>"; };
+		D73A596922A47A13005DAD7F /* UnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockViewController.h; sourceTree = "<group>"; };
+		D73A596A22A47A13005DAD7F /* UnlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnlockViewController.xib; sourceTree = "<group>"; };
+		D73A596C22A47A13005DAD7F /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		D73A596D22A47A13005DAD7F /* DashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		D73A596E22A47A13005DAD7F /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		D73A597022A47A13005DAD7F /* DebugMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugMenuViewController.m; sourceTree = "<group>"; };
+		D73A597122A47A13005DAD7F /* DebugMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMenuViewController.xib; sourceTree = "<group>"; };
+		D73A597222A47A13005DAD7F /* DebugMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugMenuViewController.h; sourceTree = "<group>"; };
+		D73A597322A47A13005DAD7F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		D73A597422A47A13005DAD7F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D73A597722A47A13005DAD7F /* PasswordCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordCreationViewController.h; sourceTree = "<group>"; };
+		D73A597822A47A13005DAD7F /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		D73A597922A47A13005DAD7F /* BiometricPermissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiometricPermissionViewController.h; sourceTree = "<group>"; };
+		D73A597A22A47A13005DAD7F /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		D73A597B22A47A13005DAD7F /* PasswordCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordCreationViewController.m; sourceTree = "<group>"; };
+		D73A597C22A47A13005DAD7F /* BiometricPermissionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BiometricPermissionViewController.xib; sourceTree = "<group>"; };
+		D73A597D22A47A13005DAD7F /* PasswordCreationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordCreationViewController.xib; sourceTree = "<group>"; };
+		D73A597E22A47A13005DAD7F /* BiometricPermissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiometricPermissionViewController.m; sourceTree = "<group>"; };
+		D73A597F22A47A13005DAD7F /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		D73A598022A47A13005DAD7F /* FirstTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTimeViewController.xib; sourceTree = "<group>"; };
+		D73A598122A47A13005DAD7F /* FirstTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTimeViewController.m; sourceTree = "<group>"; };
+		D73A598222A47A13005DAD7F /* FirstTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTimeViewController.h; sourceTree = "<group>"; };
+		D73A598422A47A13005DAD7F /* LocationPermissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationPermissionViewController.h; sourceTree = "<group>"; };
+		D73A598522A47A13005DAD7F /* LocationPermissionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationPermissionViewController.xib; sourceTree = "<group>"; };
+		D73A598622A47A13005DAD7F /* ActivityPermissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPermissionViewController.h; sourceTree = "<group>"; };
+		D73A598722A47A13005DAD7F /* ActivityPermissionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityPermissionViewController.xib; sourceTree = "<group>"; };
+		D73A598822A47A13005DAD7F /* LocationPermissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPermissionViewController.m; sourceTree = "<group>"; };
+		D73A598922A47A13005DAD7F /* ActivityPermissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPermissionViewController.m; sourceTree = "<group>"; };
+		D73A598B22A47A13005DAD7F /* UserDeviceInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDeviceInformationViewController.xib; sourceTree = "<group>"; };
+		D73A598C22A47A13005DAD7F /* UserDeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDeviceTableViewCell.xib; sourceTree = "<group>"; };
+		D73A598D22A47A13005DAD7F /* UserDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDeviceTableViewCell.m; sourceTree = "<group>"; };
+		D73A598E22A47A13005DAD7F /* UserDeviceInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDeviceInformationViewController.h; sourceTree = "<group>"; };
+		D73A598F22A47A13005DAD7F /* UserDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDeviceTableViewCell.h; sourceTree = "<group>"; };
+		D73A599022A47A13005DAD7F /* UserDeviceInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDeviceInformationViewController.m; sourceTree = "<group>"; };
+		D73A599222A47A13005DAD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73A599322A47A13005DAD7F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D73A599422A47A13005DAD7F /* NSDate+TimeElapsed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeElapsed.h"; sourceTree = "<group>"; };
+		D73A599522A47A13005DAD7F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D73A599622A47A13005DAD7F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D73A599722A47A13005DAD7F /* TAFAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TAFAssets.xcassets; sourceTree = "<group>"; };
+		D73A599A22A47A13005DAD7F /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		D73A599B22A47A13005DAD7F /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		D73A599C22A47A13005DAD7F /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		D73A599D22A47A13005DAD7F /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		D73A599E22A47A13005DAD7F /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		D73A599F22A47A13005DAD7F /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		D73A59A122A47A13005DAD7F /* JTHamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHamburgerButton.m; sourceTree = "<group>"; };
+		D73A59A222A47A13005DAD7F /* JTHamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHamburgerButton.h; sourceTree = "<group>"; };
+		D73A59A422A47A13005DAD7F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D73A59A522A47A13005DAD7F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D73A59A722A47A13005DAD7F /* ILContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILContainerView.h; sourceTree = "<group>"; };
+		D73A59A822A47A13005DAD7F /* ILContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILContainerView.m; sourceTree = "<group>"; };
+		D73A59A922A47A13005DAD7F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73A576822A47436005DAD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A59DB22A47A3C005DAD7F /* BioEncrypt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D73A576222A47436005DAD7F = {
+			isa = PBXGroup;
+			children = (
+				D73A578422A47451005DAD7F /* BioEncrypt.xcodeproj */,
+				D73A594A22A47A13005DAD7F /* BioEncrypt iOS */,
+				D73A576C22A47436005DAD7F /* Products */,
+				D73A59DA22A47A3C005DAD7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D73A576C22A47436005DAD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73A576B22A47436005DAD7F /* BioEncrypt iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73A578522A47451005DAD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73A578922A47451005DAD7F /* BioEncrypt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73A594A22A47A13005DAD7F /* BioEncrypt iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D73A594B22A47A13005DAD7F /* RootViewController.m */,
+				D73A594C22A47A13005DAD7F /* AppDelegate.h */,
+				D73A594D22A47A13005DAD7F /* NSDate+TimeElapsed.m */,
+				D73A594E22A47A13005DAD7F /* View Controllers */,
+				D73A599122A47A13005DAD7F /* LaunchScreen.storyboard */,
+				D73A599322A47A13005DAD7F /* main.m */,
+				D73A599422A47A13005DAD7F /* NSDate+TimeElapsed.h */,
+				D73A599522A47A13005DAD7F /* AppDelegate.m */,
+				D73A599622A47A13005DAD7F /* RootViewController.h */,
+				D73A599722A47A13005DAD7F /* TAFAssets.xcassets */,
+				D73A599822A47A13005DAD7F /* THIRD PARTY LIBS */,
+				D73A59A622A47A13005DAD7F /* Views */,
+				D73A59A922A47A13005DAD7F /* Info.plist */,
+			);
+			path = "BioEncrypt iOS";
+			sourceTree = "<group>";
+		};
+		D73A594E22A47A13005DAD7F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D73A595422A47A13005DAD7F /* UI Elements */,
+				D73A595722A47A13005DAD7F /* DebugViewControllers */,
+				D73A596122A47A13005DAD7F /* BaseViewController.m */,
+				D73A596222A47A13005DAD7F /* BaseNavigationController.m */,
+				D73A596322A47A13005DAD7F /* Details */,
+				D73A596722A47A13005DAD7F /* UnlockViewController */,
+				D73A596B22A47A13005DAD7F /* DashboardViewController */,
+				D73A596F22A47A13005DAD7F /* Menu */,
+				D73A597322A47A13005DAD7F /* BaseNavigationController.h */,
+				D73A597422A47A13005DAD7F /* BaseViewController.h */,
+				D73A597522A47A13005DAD7F /* FirstTimeViewControllers */,
+				D73A598322A47A13005DAD7F /* Permissions View Controllers */,
+				D73A598A22A47A13005DAD7F /* User Device Info */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D73A595422A47A13005DAD7F /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				D73A595522A47A13005DAD7F /* CircularProgressView.m */,
+				D73A595622A47A13005DAD7F /* CircularProgressView.h */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		D73A595722A47A13005DAD7F /* DebugViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D73A595822A47A13005DAD7F /* SystemDebugViewController.m */,
+				D73A595922A47A13005DAD7F /* TransparentDebugViewController.h */,
+				D73A595A22A47A13005DAD7F /* ComputationInfoViewController.h */,
+				D73A595B22A47A13005DAD7F /* UserDebugViewController.h */,
+				D73A595C22A47A13005DAD7F /* TransparentDebugViewController.m */,
+				D73A595D22A47A13005DAD7F /* SystemDebugViewController.h */,
+				D73A595E22A47A13005DAD7F /* ComputationInfoViewController.m */,
+				D73A595F22A47A13005DAD7F /* Debug.storyboard */,
+				D73A596022A47A13005DAD7F /* UserDebugViewController.m */,
+			);
+			path = DebugViewControllers;
+			sourceTree = "<group>";
+		};
+		D73A596322A47A13005DAD7F /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D73A596422A47A13005DAD7F /* DetailInfoViewController.xib */,
+				D73A596522A47A13005DAD7F /* DetailInfoViewController.m */,
+				D73A596622A47A13005DAD7F /* DetailInfoViewController.h */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D73A596722A47A13005DAD7F /* UnlockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D73A596822A47A13005DAD7F /* UnlockViewController.m */,
+				D73A596922A47A13005DAD7F /* UnlockViewController.h */,
+				D73A596A22A47A13005DAD7F /* UnlockViewController.xib */,
+			);
+			path = UnlockViewController;
+			sourceTree = "<group>";
+		};
+		D73A596B22A47A13005DAD7F /* DashboardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D73A596C22A47A13005DAD7F /* DashboardViewController.m */,
+				D73A596D22A47A13005DAD7F /* DashboardViewController.xib */,
+				D73A596E22A47A13005DAD7F /* DashboardViewController.h */,
+			);
+			path = DashboardViewController;
+			sourceTree = "<group>";
+		};
+		D73A596F22A47A13005DAD7F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D73A597022A47A13005DAD7F /* DebugMenuViewController.m */,
+				D73A597122A47A13005DAD7F /* DebugMenuViewController.xib */,
+				D73A597222A47A13005DAD7F /* DebugMenuViewController.h */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D73A597522A47A13005DAD7F /* FirstTimeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D73A597622A47A13005DAD7F /* child viewControllers */,
+				D73A598022A47A13005DAD7F /* FirstTimeViewController.xib */,
+				D73A598122A47A13005DAD7F /* FirstTimeViewController.m */,
+				D73A598222A47A13005DAD7F /* FirstTimeViewController.h */,
+			);
+			path = FirstTimeViewControllers;
+			sourceTree = "<group>";
+		};
+		D73A597622A47A13005DAD7F /* child viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D73A597722A47A13005DAD7F /* PasswordCreationViewController.h */,
+				D73A597822A47A13005DAD7F /* WelcomeViewController.h */,
+				D73A597922A47A13005DAD7F /* BiometricPermissionViewController.h */,
+				D73A597A22A47A13005DAD7F /* WelcomeViewController.m */,
+				D73A597B22A47A13005DAD7F /* PasswordCreationViewController.m */,
+				D73A597C22A47A13005DAD7F /* BiometricPermissionViewController.xib */,
+				D73A597D22A47A13005DAD7F /* PasswordCreationViewController.xib */,
+				D73A597E22A47A13005DAD7F /* BiometricPermissionViewController.m */,
+				D73A597F22A47A13005DAD7F /* WelcomeViewController.xib */,
+			);
+			path = "child viewControllers";
+			sourceTree = "<group>";
+		};
+		D73A598322A47A13005DAD7F /* Permissions View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D73A598422A47A13005DAD7F /* LocationPermissionViewController.h */,
+				D73A598522A47A13005DAD7F /* LocationPermissionViewController.xib */,
+				D73A598622A47A13005DAD7F /* ActivityPermissionViewController.h */,
+				D73A598722A47A13005DAD7F /* ActivityPermissionViewController.xib */,
+				D73A598822A47A13005DAD7F /* LocationPermissionViewController.m */,
+				D73A598922A47A13005DAD7F /* ActivityPermissionViewController.m */,
+			);
+			path = "Permissions View Controllers";
+			sourceTree = "<group>";
+		};
+		D73A598A22A47A13005DAD7F /* User Device Info */ = {
+			isa = PBXGroup;
+			children = (
+				D73A598B22A47A13005DAD7F /* UserDeviceInformationViewController.xib */,
+				D73A598C22A47A13005DAD7F /* UserDeviceTableViewCell.xib */,
+				D73A598D22A47A13005DAD7F /* UserDeviceTableViewCell.m */,
+				D73A598E22A47A13005DAD7F /* UserDeviceInformationViewController.h */,
+				D73A598F22A47A13005DAD7F /* UserDeviceTableViewCell.h */,
+				D73A599022A47A13005DAD7F /* UserDeviceInformationViewController.m */,
+			);
+			path = "User Device Info";
+			sourceTree = "<group>";
+		};
+		D73A599822A47A13005DAD7F /* THIRD PARTY LIBS */ = {
+			isa = PBXGroup;
+			children = (
+				D73A599922A47A13005DAD7F /* RESideMenu */,
+				D73A59A022A47A13005DAD7F /* JTHamburgerButton */,
+				D73A59A322A47A13005DAD7F /* MBProgressHUD */,
+			);
+			path = "THIRD PARTY LIBS";
+			sourceTree = "<group>";
+		};
+		D73A599922A47A13005DAD7F /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D73A599A22A47A13005DAD7F /* RESideMenu.h */,
+				D73A599B22A47A13005DAD7F /* UIViewController+RESideMenu.m */,
+				D73A599C22A47A13005DAD7F /* RECommonFunctions.h */,
+				D73A599D22A47A13005DAD7F /* RESideMenu.m */,
+				D73A599E22A47A13005DAD7F /* UIViewController+RESideMenu.h */,
+				D73A599F22A47A13005DAD7F /* RECommonFunctions.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		D73A59A022A47A13005DAD7F /* JTHamburgerButton */ = {
+			isa = PBXGroup;
+			children = (
+				D73A59A122A47A13005DAD7F /* JTHamburgerButton.m */,
+				D73A59A222A47A13005DAD7F /* JTHamburgerButton.h */,
+			);
+			path = JTHamburgerButton;
+			sourceTree = "<group>";
+		};
+		D73A59A322A47A13005DAD7F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D73A59A422A47A13005DAD7F /* MBProgressHUD.m */,
+				D73A59A522A47A13005DAD7F /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		D73A59A622A47A13005DAD7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D73A59A722A47A13005DAD7F /* ILContainerView.h */,
+				D73A59A822A47A13005DAD7F /* ILContainerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D73A59DA22A47A3C005DAD7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D73A576A22A47436005DAD7F /* BioEncrypt iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73A578122A47438005DAD7F /* Build configuration list for PBXNativeTarget "BioEncrypt iOS Example" */;
+			buildPhases = (
+				D73A576722A47436005DAD7F /* Sources */,
+				D73A576822A47436005DAD7F /* Frameworks */,
+				D73A576922A47436005DAD7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BioEncrypt iOS Example";
+			productName = "BioEncrypt iOS Example";
+			productReference = D73A576B22A47436005DAD7F /* BioEncrypt iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73A576322A47436005DAD7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = BioEncrypt;
+				TargetAttributes = {
+					D73A576A22A47436005DAD7F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = D73A576622A47436005DAD7F /* Build configuration list for PBXProject "BioEncrypt iOS Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73A576222A47436005DAD7F;
+			productRefGroup = D73A576C22A47436005DAD7F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D73A578522A47451005DAD7F /* Products */;
+					ProjectRef = D73A578422A47451005DAD7F /* BioEncrypt.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D73A576A22A47436005DAD7F /* BioEncrypt iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D73A578922A47451005DAD7F /* BioEncrypt.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BioEncrypt.framework;
+			remoteRef = D73A578822A47451005DAD7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D73A576922A47436005DAD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A59B322A47A13005DAD7F /* Debug.storyboard in Resources */,
+				D73A59BA22A47A13005DAD7F /* UnlockViewController.xib in Resources */,
+				D73A59C722A47A13005DAD7F /* LocationPermissionViewController.xib in Resources */,
+				D73A59C122A47A13005DAD7F /* BiometricPermissionViewController.xib in Resources */,
+				D73A59D222A47A13005DAD7F /* TAFAssets.xcassets in Resources */,
+				D73A59C422A47A13005DAD7F /* WelcomeViewController.xib in Resources */,
+				D73A59C522A47A13005DAD7F /* FirstTimeViewController.xib in Resources */,
+				D73A59C222A47A13005DAD7F /* PasswordCreationViewController.xib in Resources */,
+				D73A59CF22A47A13005DAD7F /* LaunchScreen.storyboard in Resources */,
+				D73A59BE22A47A13005DAD7F /* DebugMenuViewController.xib in Resources */,
+				D73A59CB22A47A13005DAD7F /* UserDeviceInformationViewController.xib in Resources */,
+				D73A59C822A47A13005DAD7F /* ActivityPermissionViewController.xib in Resources */,
+				D73A59CC22A47A13005DAD7F /* UserDeviceTableViewCell.xib in Resources */,
+				D73A59B722A47A13005DAD7F /* DetailInfoViewController.xib in Resources */,
+				D73A59BC22A47A13005DAD7F /* DashboardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D73A576722A47436005DAD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A59AB22A47A13005DAD7F /* NSDate+TimeElapsed.m in Sources */,
+				D73A59B522A47A13005DAD7F /* BaseViewController.m in Sources */,
+				D73A59B422A47A13005DAD7F /* UserDebugViewController.m in Sources */,
+				D73A59B822A47A13005DAD7F /* DetailInfoViewController.m in Sources */,
+				D73A59C022A47A13005DAD7F /* PasswordCreationViewController.m in Sources */,
+				D73A59C322A47A13005DAD7F /* BiometricPermissionViewController.m in Sources */,
+				D73A59BF22A47A13005DAD7F /* WelcomeViewController.m in Sources */,
+				D73A59D722A47A14005DAD7F /* MBProgressHUD.m in Sources */,
+				D73A59C922A47A13005DAD7F /* LocationPermissionViewController.m in Sources */,
+				D73A59B622A47A13005DAD7F /* BaseNavigationController.m in Sources */,
+				D73A59D022A47A13005DAD7F /* main.m in Sources */,
+				D73A59BB22A47A13005DAD7F /* DashboardViewController.m in Sources */,
+				D73A59D822A47A14005DAD7F /* ILContainerView.m in Sources */,
+				D73A59CD22A47A13005DAD7F /* UserDeviceTableViewCell.m in Sources */,
+				D73A59D622A47A13005DAD7F /* JTHamburgerButton.m in Sources */,
+				D73A59BD22A47A13005DAD7F /* DebugMenuViewController.m in Sources */,
+				D73A59B222A47A13005DAD7F /* ComputationInfoViewController.m in Sources */,
+				D73A59CE22A47A13005DAD7F /* UserDeviceInformationViewController.m in Sources */,
+				D73A59C622A47A13005DAD7F /* FirstTimeViewController.m in Sources */,
+				D73A59B122A47A13005DAD7F /* TransparentDebugViewController.m in Sources */,
+				D73A59D422A47A13005DAD7F /* RESideMenu.m in Sources */,
+				D73A59D522A47A13005DAD7F /* RECommonFunctions.m in Sources */,
+				D73A59B922A47A13005DAD7F /* UnlockViewController.m in Sources */,
+				D73A59AF22A47A13005DAD7F /* CircularProgressView.m in Sources */,
+				D73A59D122A47A13005DAD7F /* AppDelegate.m in Sources */,
+				D73A59AA22A47A13005DAD7F /* RootViewController.m in Sources */,
+				D73A59D322A47A13005DAD7F /* UIViewController+RESideMenu.m in Sources */,
+				D73A59CA22A47A13005DAD7F /* ActivityPermissionViewController.m in Sources */,
+				D73A59B022A47A13005DAD7F /* SystemDebugViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D73A599122A47A13005DAD7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73A599222A47A13005DAD7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D73A577F22A47438005DAD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D73A578022A47438005DAD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D73A578222A47438005DAD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/BioEncrypt iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bioencrypt.BioEncrypt-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73A578322A47438005DAD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/BioEncrypt iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bioencrypt.BioEncrypt-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D73A576622A47436005DAD7F /* Build configuration list for PBXProject "BioEncrypt iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73A577F22A47438005DAD7F /* Debug */,
+				D73A578022A47438005DAD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73A578122A47438005DAD7F /* Build configuration list for PBXNativeTarget "BioEncrypt iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73A578222A47438005DAD7F /* Debug */,
+				D73A578322A47438005DAD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D73A576322A47436005DAD7F /* Project object */;
+}
